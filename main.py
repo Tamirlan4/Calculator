@@ -47,7 +47,7 @@ def make_clear_button(operation):
     return tk.Button(text=operation, bd=5, font=('Arial',22), fg='red' , command=lambda : clear())
 
 win = tk.Tk()   
-win.iconbitmap('./assets/ico/icon.ico')
+#win.iconbitmap('./icon.ico')
 win.geometry("240x300+100+200")
 win['bg'] = "#FF9900"
 win.title('Calculator A.T.K.')
