@@ -50,7 +50,7 @@ win = tk.Tk()
 win.iconbitmap('./assets/ico/icon.ico')
 win.geometry("240x300+100+200")
 win['bg'] = "#FF9900"
-win.title('Калькулятор')
+win.title('Calculator A.T.K.')
 win.resizable(width=False, height=False)
 
 calc = tk.Entry(win, justify=tk.RIGHT, font=('Arial',15),width=15,background='#F5F5F5',)
